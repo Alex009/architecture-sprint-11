@@ -51,3 +51,4 @@
 
 Решение:
 1. Техрадар в виде [таблицы](Exc3/tech-radar.csv), [круговой диаграммы](Exc3/tech-radar-thoughtworks.png) и [описание к круговой диаграмме](Exc3/tech-radar-thoughtworks-legend.pdf).
+2. Роадмап и обоснования в [документе](Exc3/ROADMAP.md), а также в виде [диаграммы ганта](Exc3/roadmap.drawio)
