@@ -1,0 +1,104 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.15 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.15">
+  <diagram name="Page-1" id="mB8YLuMmBEMTiQLGBqZd">
+    <mxGraphModel dx="1110" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Of-AIPQErRhCinUC24cg-26" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Data Lakehouse" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=bottom;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="520" width="210" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Of-AIPQErRhCinUC24cg-1" target="Of-AIPQErRhCinUC24cg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-15" value="Данные о клиентах,&lt;br&gt;персоналу, инвентарю,&lt;br&gt;отчетность,&lt;br&gt;анонимизированные медицинские данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Of-AIPQErRhCinUC24cg-14">
+          <mxGeometry x="-0.8087" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="82" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-1" value="Медицинские&lt;br&gt;сервисы&lt;br&gt;(старый Data Warehouse)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Of-AIPQErRhCinUC24cg-2" target="Of-AIPQErRhCinUC24cg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-16" value="финансовые данные,&lt;br&gt;персонал,&lt;br&gt;отчетность" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Of-AIPQErRhCinUC24cg-13">
+          <mxGeometry x="-0.7524" y="-2" relative="1" as="geometry">
+            <mxPoint y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-2" value="Финтех&lt;br&gt;сервисы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Of-AIPQErRhCinUC24cg-3" target="Of-AIPQErRhCinUC24cg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-17" value="данные производства, &lt;br&gt;исследований,&lt;br&gt;персонала,&lt;br&gt;отчетность" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Of-AIPQErRhCinUC24cg-10">
+          <mxGeometry x="-0.4444" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-3" value="Фармацевтические&lt;br&gt;сервисы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Of-AIPQErRhCinUC24cg-4" target="Of-AIPQErRhCinUC24cg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-18" value="данные производства, &lt;br&gt;пересонала, &lt;br&gt;отчетность" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Of-AIPQErRhCinUC24cg-11">
+          <mxGeometry x="-0.8154" y="-4" relative="1" as="geometry">
+            <mxPoint x="4" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-4" value="Мед-оборудование&lt;br&gt;сервисы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;curved=0;startArrow=openThin;startFill=0;" edge="1" parent="1" source="Of-AIPQErRhCinUC24cg-5" target="Of-AIPQErRhCinUC24cg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-19" value="Медицинские данные из шины, а &lt;br&gt;результаты анализа в шину" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Of-AIPQErRhCinUC24cg-12">
+          <mxGeometry x="-0.8418" y="-2" relative="1" as="geometry">
+            <mxPoint x="15" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-5" value="ML сервисы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Of-AIPQErRhCinUC24cg-6" target="Of-AIPQErRhCinUC24cg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-21" value="данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Of-AIPQErRhCinUC24cg-20">
+          <mxGeometry x="-0.12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-6" value="Интеграционная шина" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Of-AIPQErRhCinUC24cg-7" target="Of-AIPQErRhCinUC24cg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-23" value="данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Of-AIPQErRhCinUC24cg-22">
+          <mxGeometry x="-0.1429" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Of-AIPQErRhCinUC24cg-7" target="Of-AIPQErRhCinUC24cg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-25" value="данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Of-AIPQErRhCinUC24cg-24">
+          <mxGeometry x="-0.16" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-7" value="Dremio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-8" value="S3 хранилище" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Of-AIPQErRhCinUC24cg-9" value="Power BI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
