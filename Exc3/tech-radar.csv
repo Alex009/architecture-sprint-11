@@ -1,0 +1,15 @@
+name,ring,quadrant,isNew,description
+Microsoft SQL Server 2008 (DWH),Hold,Platforms,FALSE,"Текущий Data Warehouse и в тоже время БД и бизнес-логика для медицинского подразделения. Роль Data Warehouse снижаем, а как бд и бизнес-логику для медицинского подразделения - оставляем."
+Data Lakehouse,Trial,Platforms,TRUE,Единое озеро данных для всей группы компаний
+MinIO,Trial,Platforms,TRUE,S3 совместимое хранилище для озера данных
+Apache Iceberg,Trial,Tools,TRUE,Табличные данные для bigdata
+Dremio,Trial,Platforms,TRUE,Сервис работы с данными озера
+DataHub,Trial,Platforms,TRUE,Каталог данных для поиска источника нужных данных в озере
+Apache Camel,Adopt,Tools,FALSE,Интеграционная шина
+Power BI,Adopt,Platforms,FALSE,"Бизнес аналитика - дашборды, отчеты"
+Power Builder,Hold,Languages & Frameworks,FALSE,"Клиентские приложения для медицинского подразделения, остается так, но не расширяем (вместо такого подхода делаем веб-приложения)"
+Python,Adopt,Languages & Frameworks,FALSE,ML сервисы
+Golang,Adopt,Languages & Frameworks,FALSE,Финтех сервисы
+Java,Adopt,Languages & Frameworks,FALSE,Финтех сервисы
+Domain-Driven Design (DDD),Trial,Techniques,TRUE,Разделение на домены
+Data Mesh,Trial,Techniques,TRUE,"За качество и доступность данных отвечают команды-владельцы, согласно доменам"
